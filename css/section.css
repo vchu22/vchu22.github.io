@@ -1,0 +1,111 @@
+section {
+  display: none;
+  justify-content: center;
+}
+
+/* tab contents */
+article {
+  background: #99939333;
+  width: 80%;
+  padding: 10px 50px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.tabcontent {
+  display: none;
+}
+#AboutMe {
+  display: block;
+}
+article h1 {
+  font-size: 36px;
+}
+
+/* Skills */
+#Skills li {
+  list-style: none;
+  background: #e69244;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+/* Experience */
+#Experience > ul {
+  list-style: none;
+}
+#Experience > ul > li {
+  background-color: #d4a171;
+  color: #000000;
+  margin: 30px 0;
+  padding: 5px 30px 15px;
+}
+#Experience > ul > li > * {
+  line-height: 1em;
+}
+#Experience > ul > li > ul {
+  list-style-type: square;
+}
+#Experience > ul > li > ul > li {
+  font-size: 18px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.title > * {
+  margin: 15px 0;
+}
+
+#Portfolio hr {
+  border: 2px solid #000;
+  margin-block-end: 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 380px;
+  margin: auto 20px;
+  display: inline-block;
+}
+.item > a {
+  color: #574c4c;
+}
+
+.item img {
+  width: 380px;
+  height: 260px;
+}
+/* mobile */
+@media only screen and (max-width: 760px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    width: 100%;
+    border-bottom-left-radius: 0;
+  }
+  nav > ul {
+    overflow: hidden;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  nav > ul > li > a {
+    font-size: 1.4em;
+  }
+  article {
+    padding: 10px 10%;
+    font-size: 1.3em;
+  }
+  article h1 {
+    font-size: 30px;
+  }
+}

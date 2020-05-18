@@ -1,0 +1,70 @@
+/* header start */
+header {
+  height: 460px;
+  color: #000;
+  display: none;
+  justify-content: center;
+}
+header > div {
+  margin: auto;
+}
+/* mobile */
+@media only screen and (max-width: 760px) {
+  header {
+    height: auto;
+    flex-direction: column;
+  }
+  header > div {
+    text-align: center;
+  }
+}
+#avatar {
+  background-image: url('https://avatars0.githubusercontent.com/u/10492258?s=400&v=4');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  transform: scale(0.8, 0.8);
+}
+/* small mobile */
+@media only screen and (max-width: 400px) {
+  #avatar {
+    width: 94vw;
+    height: 94vw;
+  }
+}
+#desc > h2 {
+  color: rgb(78, 78, 78);
+}
+.fa-map-marker-alt {
+  margin: auto 20px;
+}
+#desc > ul {
+  list-style: none;
+}
+#desc > ul > li {
+  display: inline-block;
+  margin: 15px 60px 0 0;
+  width: 25px;
+}
+.fa-linkedin {
+  color: rgb(35, 107, 175);
+}
+.fa-github-square,
+.fa-medium {
+  color: rgb(1, 1, 1);
+}
+.fa-codepen {
+  color: rgb(187, 108, 55);
+}
+.fa-hackerrank {
+  color: rgb(53, 163, 72);
+}
+.fa-gitlab,
+.fa-gitlab:visited {
+  color: rgb(235, 97, 43);
+}
+.fa-blog {
+  color: rgb(219, 159, 29);
+}
+/* header end */

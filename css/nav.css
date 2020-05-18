@@ -1,0 +1,38 @@
+/* nav start */
+nav {
+  background: #3d2a22cc;
+  width: 20%;
+  border-bottom-left-radius: 15px;
+}
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav > ul > li > a {
+  text-decoration: none !important;
+  color: #fff;
+  font-size: 2em;
+  line-height: 3em;
+}
+nav > ul > li:hover {
+  background: #af7962cc;
+}
+/* nav end */
+@media only screen and (max-width: 1100px) {
+  nav {
+    width: 250px;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  #desc {
+    width: 70vw;
+    height: 70vw;
+    margin: 25px;
+  }
+  #desc > ul {
+    width: 50vw;
+  }
+}
