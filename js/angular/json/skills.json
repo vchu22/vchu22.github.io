@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Web Development Technologies",
+    "items": [
+      "HTML/CSS/Javascript",
+      "Node.js",
+      "Sequelize ORM",
+      "React.js",
+      "Redux",
+      "Bootstrap",
+      "Angular.js",
+      "Socket.io",
+      "Python Flask & Django"
+    ]
+  },
+  {
+    "category": "Databases",
+    "items": ["PostgreSQL", "MySQL", "MongoDB"]
+  },
+  {
+    "category": "Programming Languages",
+    "items": ["Python", "Java", "C#", "C++"]
+  },
+  {
+    "category": "Game Development",
+    "items": ["Unity3D", "Blender"]
+  },
+  {
+    "category": "Others",
+    "items": [
+      "Git & Github",
+      "Project Management",
+      "Heroku",
+      "Google Cloud Platform",
+      "Amazon Web Services"
+    ]
+  }
+]

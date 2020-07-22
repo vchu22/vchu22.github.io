@@ -1,0 +1,38 @@
+[
+  {
+    "site": "Linkedin",
+    "link": "https://www.linkedin.com/in/vanessa-chu22/",
+    "class": "fab fa-linkedin fa-4x"
+  },
+  {
+    "site": "Github",
+    "link": "https://github.com/vchu22",
+    "class": "fab fa-github-square fa-4x"
+  },
+  {
+    "site": "GitLab",
+    "link": "https://gitlab.com/vchu22",
+    "class": "fab fa-gitlab fa-4x"
+  },
+  {
+    "site": "Codepen",
+    "link": "https://codepen.io/vchu22/",
+    "class": "fab fa-codepen fa-4x"
+  },
+  {
+    "site": "LeetCode",
+    "link": "https://leetcode.com/vchu22/",
+    "isimage": true,
+    "imglink": "https://unpkg.com/simple-icons@latest/icons/leetcode.svg"
+  },
+  {
+    "site": "Hackerrank",
+    "link": "https://www.hackerrank.com/vanessa_chu",
+    "class": "fab fa-hackerrank fa-4x"
+  },
+  {
+    "site": "My Blog",
+    "link": "https://code-expresso.netlify.com/",
+    "class": "fas fa-blog fa-3x"
+  }
+]

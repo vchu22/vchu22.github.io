@@ -1,0 +1,24 @@
+[
+  {
+    "company": "OnHand",
+    "title": "Full-Stack Developer Intern",
+    "time": "12/2017 - 02/2018",
+    "bulletPts": [
+      "Discussed the soware architecture of OnHand",
+      "Evaluated third-party APIs for delivering emails and SMS",
+      "Utilized Mailgun SMTP server, Twilio API, and Python Django for creating the messaging component"
+    ]
+  },
+  {
+    "company": "FixMe",
+    "title": "Web Developer Intern",
+    "time": "12/2017 - 02/2018",
+    "bulletPts": [
+      "Debugged frontend code and ensured the responsiveness of subscription modal",
+      "Implemented new features using FancyGrid and Owl Carousel JavaScript libraries",
+      "Utilized Git repository on Github and Bitbucket for version control and collaboration",
+      "Utilized JIRA and Slack to communicate project requirements and discuss issues",
+      "Proposed the use RESTful API to connect the frontend to the backend"
+    ]
+  }
+]
