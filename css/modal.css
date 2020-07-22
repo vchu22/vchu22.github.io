@@ -43,7 +43,8 @@
 }
 
 .modal-project-desc {
-  margin: 10px auto 30px;
+  margin: 10px auto 10px;
+  white-space: pre-wrap;
 }
 
 .modal-project-links {
