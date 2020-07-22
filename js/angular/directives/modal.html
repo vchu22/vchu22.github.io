@@ -1,5 +1,5 @@
-<div class="modal-container">
-  <div class="modal-content">
+<div class="modal-container" ng-click="close()">
+  <div class="modal-content" ng-click="$event.stopPropagation()">
     <div class="modal-header">
       <span></span>
       <span>{{ item.title }}</span>
