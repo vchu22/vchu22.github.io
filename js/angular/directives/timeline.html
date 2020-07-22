@@ -1,0 +1,12 @@
+<ul class="timeline">
+  <li ng-repeat="job in jobs">
+    <div class="title">
+      <h5><i class="fas fa-user-tie"></i> {{ job.title }}</h5>
+      <h5><i class="fas fa-building"></i> {{ job.company }}</h5>
+      <h6><i class="fas fa-calendar"></i> {{ job.time }}</h6>
+    </div>
+    <ul>
+      <li ng-repeat="bulletPt in job.bulletPts">{{ bulletPt }}</li>
+    </ul>
+  </li>
+</ul>

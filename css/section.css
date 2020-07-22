@@ -31,22 +31,22 @@ article h1 {
   display: inline-block;
 }
 /* Experience */
-#Experience > ul {
+ul.timeline {
   list-style: none;
 }
-#Experience > ul > li {
+ul.timeline > li {
   background-color: #d4a171;
   color: #000000;
   margin: 30px 0;
   padding: 5px 30px 15px;
 }
-#Experience > ul > li > * {
+ul.timeline > li > * {
   line-height: 1em;
 }
-#Experience > ul > li > ul {
+ul.timeline > li > ul {
   list-style-type: square;
 }
-#Experience > ul > li > ul > li {
+ul.timeline > li > ul > li {
   font-size: 18px;
 }
 .title {
