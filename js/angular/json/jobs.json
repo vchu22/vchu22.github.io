@@ -1,12 +1,24 @@
 [
   {
+    "company": "Citizen Health",
+    "title": "Software Engineer (Volunteer)",
+    "time": "12/2017 - 02/2018",
+    "bulletPts": [
+      "Working on the front-end interface of COVIDx, an platform that uses wearable data to predict & prevent COVID-19 spread",
+      "Implemented React.js code to show leaderboard data and applied Vuexy theme to UI components",
+      "Created health report survey with Tripetto Studio and integrated it to React UI using Tripetto SDK"
+    ]
+  },
+  {
     "company": "OnHand",
     "title": "Full-Stack Developer Intern",
     "time": "12/2017 - 02/2018",
     "bulletPts": [
-      "Discussed the soware architecture of OnHand",
-      "Evaluated third-party APIs for delivering emails and SMS",
-      "Utilized Mailgun SMTP server, Twilio API, and Python Django for creating the messaging component"
+      "Discussed the software architecture of the website with the manager and the team",
+      "Preliminary development of a messaging component with email and SMS notification functionalities",
+      "Implemented email notification functionality for Django server and utilized third-party Django library to send templated emails",
+      "Set up a SMTP server using Mailgun to test the Django code for emailing functionality",
+      "Programmed SMS notification functionality using Twilio API for Python"
     ]
   },
   {
@@ -14,10 +26,11 @@
     "title": "Web Developer Intern",
     "time": "12/2017 - 02/2018",
     "bulletPts": [
-      "Debugged frontend code and ensured the responsiveness of subscription modal",
-      "Implemented new features using FancyGrid and Owl Carousel JavaScript libraries",
-      "Utilized Git repository on Github and Bitbucket for version control and collaboration",
-      "Utilized JIRA and Slack to communicate project requirements and discuss issues",
+      "Debugged HTML/CSS/Javascript/jQuery code for the front-end",
+      "Implemented the responsive design using Bootstrap and CSS media queries",
+      "Applied FancyGrid and Owl Carousel JavaScript libraries to create data tables and carousel features",
+      "Utilized Git repository on Github and Bitbucket for version control and code collaboration",
+      "Communicated the project progress and issues with team over Slack and JIRA Scrum Board",
       "Proposed the use RESTful API to connect the frontend to the backend"
     ]
   }
