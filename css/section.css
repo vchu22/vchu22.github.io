@@ -82,24 +82,10 @@ ul.timeline > li > ul > li {
   height: 260px;
 }
 /* mobile */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
   section {
     display: flex;
     flex-direction: column;
-  }
-  nav {
-    width: 100%;
-    border-bottom-left-radius: 0;
-  }
-  nav > ul {
-    overflow: hidden;
-  }
-  nav > ul > li {
-    display: inline-block;
-    padding: 0 15px;
-  }
-  nav > ul > li > a {
-    font-size: 1.4em;
   }
   article {
     padding: 10px 10%;

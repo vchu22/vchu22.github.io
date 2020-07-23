@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:900');
+@import url("https://fonts.googleapis.com/css?family=Exo:900");
 html {
-  background: url('../img/background.jpg') no-repeat center center fixed;
+  background: url("../img/background.jpg") no-repeat center center fixed;
   -webkit-background-repeat: no-repeat;
   -moz-background-repeat: no-repeat;
   -o-background-repeat: no-repeat;
@@ -20,7 +20,7 @@ html {
   flex-direction: column;
   justify-content: center;
   border-radius: 15px;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
 }
 @media only screen and (max-width: 1440px) {
   #content {
@@ -33,7 +33,7 @@ html {
   }
 }
 /* mobile */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
   #content {
     border-radius: 5px;
     margin: 10% auto;

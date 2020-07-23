@@ -5,6 +5,8 @@ nav {
   border-bottom-left-radius: 15px;
 }
 nav > ul {
+  position: sticky;
+  top: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -17,7 +19,7 @@ nav > ul > li > a {
   line-height: 3em;
 }
 nav > ul > li:hover {
-  background: #af7962cc;
+  background: #af7962;
 }
 /* nav end */
 @media only screen and (max-width: 1100px) {
@@ -26,7 +28,7 @@ nav > ul > li:hover {
   }
 }
 /* mobile */
-@media only screen and (max-width: 1000px) and (min-width: 768px) {
+@media only screen and (max-width: 1000px) and (min-width: 769px) {
   #desc {
     width: 70vw;
     height: 70vw;
@@ -34,5 +36,24 @@ nav > ul > li:hover {
   }
   #desc > ul {
     width: 50vw;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+  nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom-left-radius: 0;
+  }
+  nav > ul {
+    overflow: hidden;
+  }
+  nav > ul > li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  nav > ul > li > a {
+    font-size: 1.4em;
   }
 }

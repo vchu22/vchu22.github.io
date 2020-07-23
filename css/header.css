@@ -9,7 +9,7 @@ header > div {
   margin: auto;
 }
 /* mobile */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
   header {
     height: auto;
     flex-direction: column;
@@ -19,7 +19,7 @@ header > div {
   }
 }
 #avatar {
-  background-image: url('https://avatars0.githubusercontent.com/u/10492258?s=400&v=4');
+  background-image: url("https://avatars0.githubusercontent.com/u/10492258?s=400&v=4");
   background-repeat: no-repeat;
   background-size: cover;
   width: 400px;
