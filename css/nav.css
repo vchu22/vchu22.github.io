@@ -45,6 +45,8 @@ nav > ul > li:hover {
     top: 0;
     width: 100%;
     border-bottom-left-radius: 0;
+    z-index: 1;
+    background: #3d2a22dd;
   }
   nav > ul {
     overflow: hidden;

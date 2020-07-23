@@ -10,6 +10,7 @@
   -ms-overflow-style: none;
   /* Hide scrollbar for Firefox */
   scrollbar-width: none;
+  z-index: 3;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -43,7 +44,7 @@
 }
 
 .modal-project-desc {
-  margin: 10px auto 10px;
+  margin: 2px auto 10px;
   white-space: pre-wrap;
 }
 
@@ -85,13 +86,13 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   min-width: 120px;
-  background-color: #555;
+  background-color: #555555e0;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 8px;
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   bottom: 115%;
   left: 28px;
   margin-left: -60px;
@@ -123,7 +124,7 @@
 .modal-tech-stack > div {
   height: 72px;
   width: 72px;
-  margin: 40px 20px 0;
+  margin: 20px 10px 0;
   border-radius: 20px;
   background-color: #c4b7ad;
 }
