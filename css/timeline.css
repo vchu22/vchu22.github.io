@@ -1,0 +1,121 @@
+.box {
+  margin: 0 5px;
+  overflow: hidden;
+  padding: 0 0 40px 60px;
+}
+
+.timeline {
+  list-style-type: none;
+  margin-left: 36px;
+  padding: 0;
+  position: relative;
+  top: 0;
+  font-size: medium;
+}
+
+/* dash lines */
+.timeline:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  border: 1px dashed #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.timeline > li {
+  min-height: 30px;
+  width: 48vw;
+  margin: 20px 30px 60px;
+  position: relative;
+  padding: 10px 20px;
+  background: rgba(126, 97, 69, 0.3);
+  color: rgb(49, 49, 49);
+  border-radius: 10px;
+  line-height: 20px;
+  box-shadow: 2px 2px 5px 5px rgba(20, 20, 20, 0.3);
+}
+.timeline > * {
+  display: inline-block;
+}
+
+.timeline .info {
+  margin: 40px 20px 20px;
+  padding: 10px 20px;
+  color: rgb(119, 95, 95);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  line-height: 20px;
+  clear: both;
+}
+
+.timeline > li > span {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.timeline > li > span:before,
+.timeline > li > span:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #b98c62;
+  border: 4px solid #fff;
+  position: absolute;
+  left: -10px;
+}
+
+.timeline > li > span:before {
+  top: -15px;
+}
+.timeline > li > span:after {
+  top: 99%;
+}
+
+.timeline .title,
+.timeline .company {
+  margin: 10px 0 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+.timeline i {
+  margin: 0 5px 0 12px;
+}
+.timeline .company {
+  float: left;
+  text-align: left;
+  text-transform: capitalize;
+}
+.timeline .title {
+  float: right;
+}
+
+.box .time span {
+  position: absolute;
+  left: -126px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+}
+.box .time span:first-child {
+  top: -14px;
+}
+.box .time span:last-child {
+  top: 100%;
+}
+
+/* bullet points */
+.info li {
+  list-style: square;
+  margin: 10px 0;
+}

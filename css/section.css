@@ -30,32 +30,6 @@ article h1 {
   padding: 10px;
   display: inline-block;
 }
-/* Experience */
-ul.timeline {
-  list-style: none;
-}
-ul.timeline > li {
-  background-color: #d4a171;
-  color: #000000;
-  margin: 30px 0;
-  padding: 5px 30px 15px;
-}
-ul.timeline > li > * {
-  line-height: 1em;
-}
-ul.timeline > li > ul {
-  list-style-type: square;
-}
-ul.timeline > li > ul > li {
-  font-size: 18px;
-}
-.title {
-  display: flex;
-  justify-content: space-between;
-}
-.title > * {
-  margin: 15px 0;
-}
 
 #Portfolio hr {
   border: 2px solid #000;

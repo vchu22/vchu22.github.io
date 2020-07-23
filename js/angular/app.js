@@ -13,8 +13,8 @@ app.controller("skillsTab", function ($scope, $http) {
 });
 
 app.controller("expTab", function ($scope, $http) {
-  $http.get("/js/angular/json/jobs.json").then(function (data) {
-    $scope.jobs = data.data;
+  $http.get("/js/angular/json/experience.json").then(function (data) {
+    $scope.experience = data.data;
   });
 });
 
