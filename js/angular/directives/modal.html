@@ -9,14 +9,16 @@
       <img src="{{ item.img }}" />
     </div>
     <div class="modal-tech-stack">
-      <img
-        src="img/tech/{{stack | lowercase}}.svg"
-        alt="{{stack}}"
-        title="{{stack}}"
-        width="64"
-        height="64"
-        ng-repeat="stack in item.tech"
-      />
+      <div ng-repeat="stack in item.tech">
+        <div class="tooltip">
+          <img
+            src="img/tech/{{stack | lowercase}}.svg"
+            width="64"
+            height="64"
+          />
+          <span class="tooltiptext">{{stack}}</span>
+        </div>
+      </div>
     </div>
     <p class="modal-project-desc">
       {{ item.desc }}

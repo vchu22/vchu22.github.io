@@ -76,16 +76,64 @@
   border: 0;
 }
 
+/* tooltip begin */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 115%;
+  left: 28px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/* tooltip end */
 .modal-tech-stack {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-.modal-tech-stack > img {
-  margin: 10px 20px;
-  padding: 5px;
+.modal-tech-stack > div {
+  height: 72px;
+  width: 72px;
+  margin: 40px 20px 0;
   border-radius: 20px;
   background-color: #c4b7ad;
+}
+.modal-tech-stack > div:hover {
+  background-color: #ad9888;
+}
+.modal-tech-stack img {
+  height: 64px;
+  width: 64px;
+  margin: 4px;
 }
 
 @media (max-width: 720px) {
