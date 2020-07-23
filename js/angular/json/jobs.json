@@ -2,7 +2,9 @@
   {
     "company": "Citizen Health",
     "title": "Software Engineer (Volunteer)",
-    "time": "12/2017 - 02/2018",
+    "time": "04/2020 - Present",
+    "start": "04/2020",
+    "end": "Present",
     "bulletPts": [
       "Working on the front-end interface of COVIDx, an platform that uses wearable data to predict & prevent COVID-19 spread",
       "Implemented React.js code to show leaderboard data and applied Vuexy theme to UI components",
@@ -13,6 +15,8 @@
     "company": "OnHand",
     "title": "Full-Stack Developer Intern",
     "time": "12/2017 - 02/2018",
+    "start": "12/2017",
+    "end": "02/2018",
     "bulletPts": [
       "Discussed the software architecture of the website with the manager and the team",
       "Preliminary development of a messaging component with email and SMS notification functionalities",
@@ -24,7 +28,9 @@
   {
     "company": "FixMe",
     "title": "Web Developer Intern",
-    "time": "12/2017 - 02/2018",
+    "time": "06/2017 - 08/2017",
+    "start": "06/2017",
+    "end": "08/2017",
     "bulletPts": [
       "Debugged HTML/CSS/Javascript/jQuery code for the front-end",
       "Implemented the responsive design using Bootstrap and CSS media queries",
