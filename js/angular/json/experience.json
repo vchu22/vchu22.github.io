@@ -34,8 +34,11 @@
 
     "description": "An immersive 17-week full-time, all-women program in full-stack web development. The technologies and topics covered in the program includes:",
     "bulletPts": [
-      "HTML/CSS/Javascript",
-      "Node.js/Express/Sequelize ORM",
+      "HTML/CSS",
+      "Javascript",
+      "Node.js",
+      "Express",
+      "Sequelize.js (ORM)",
       "PostgreSQL",
       "React/Redux",
       "Webpack",
@@ -43,7 +46,9 @@
       "OAuth and Passport",
       "Heroku",
       "TravisCI",
-      "Jasmine/Chai/Mocha",
+      "Jasmine",
+      "Chai",
+      "Mocha",
       "Pair Programming",
       "Test Driven Development",
       "Data Structures & Algorithms"
