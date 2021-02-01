@@ -2,21 +2,28 @@
   {
     "type": "education",
     "company": "Florida International University",
-    "title": "B.A. in Computer Science",
+    "title": "Bachelor of Arts in Computer Science",
     "start": "2020-08",
     "backgroundColor": "rgba(0, 42, 98, 0.8)",
     "titleColor": "rgba(240, 214, 0)",
-    "infoColor": "rgb(40, 40, 40)"
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Cumulative GPA: 3.89, Coursework in:",
+    "bulletPts": [
+      "Programming II (Java)",
+      "Professional & Technical Writing",
+      "Logic for Computer Science"
+    ]
   },
   {
     "type": "work",
     "company": "Citizen Health",
     "title": "Software Engineer (Volunteer)",
     "start": "2020-04",
+    "end": "2020-08",
     "backgroundColor": "rgba(60, 60, 60, 0.8)",
     "titleColor": "rgba(240, 90, 70)",
     "infoColor": "rgb(40, 40, 40)",
-    "description": "Currently working on the front-end interface of COVIDx, a web app that uses wearable data to predict & prevent COVID-19 spread",
+    "description": "Worked on the front-end interface of COVIDx, a web app that uses wearable data to predict & prevent COVID-19 spread",
     "bulletPts": [
       "Implemented React.js code to show leaderboard data and applied Vuexy theme to UI components",
       "Created health report survey with Tripetto Studio and integrated it to React UI using Tripetto SDK"
