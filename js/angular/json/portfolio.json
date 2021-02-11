@@ -63,7 +63,7 @@
           },
           {
             "type": "code",
-            "url": "https://github.com/vchu22/1901-GH-Stackathon"
+            "url": "https://github.com/vchu22/AcademicBot"
           }
         ],
         "title": "Academic Center Chatbot",
@@ -130,17 +130,17 @@
         "links": [
           {
             "type": "link",
-            "url": "https://covid19-data-visualization.now.sh/"
+            "url": "https://covid-watch.now.sh/"
           },
           {
             "type": "code",
-            "url": "https://github.com/vchu22/covid19-visualization"
+            "url": "https://github.com/vchu22/covid-watch"
           }
         ],
         "title": "COVID Watch",
         "img": "img/COVID-Watch.png",
         "tech": ["React", "Webpack"],
-        "desc": "During the COVID-19 pandemic, I made a small website that displays the current metrics for COVID cases. I also made a chart that visualizes the trend in each country. The libraries I used in this project include Recharts, styled-components, Flux, and React Mapbox GL."
+        "desc": "At the start of the COVID-19 pandemic, I made a small website that displays the current metrics for COVID cases. I also made a chart that visualizes the trend in each country. The libraries used in this project include Recharts, styled-components, Flux, and React Mapbox GL."
       },
       {
         "links": [
