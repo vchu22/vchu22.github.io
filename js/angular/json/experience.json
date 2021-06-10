@@ -9,9 +9,11 @@
     "infoColor": "rgb(40, 40, 40)",
     "description": "Cumulative GPA: 3.89, Coursework in:",
     "bulletPts": [
-      "Programming II (Java)",
-      "Professional & Technical Writing",
-      "Logic for Computer Science"
+      "Programming II (in Java)",
+      "Professional and Technical Writing for Computing",
+      "Logic for Computer Science",
+      "System Programming (in C)",
+      "Database Management"
     ]
   },
   {
