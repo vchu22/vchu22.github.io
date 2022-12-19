@@ -4,8 +4,8 @@
     "company": "Florida International University",
     "title": "Bachelor of Arts in Computer Science",
     "start": "2020-08",
-    "backgroundColor": "rgba(0, 42, 98, 0.8)",
-    "titleColor": "rgba(240, 214, 0)",
+    "backgroundColor": "rgba(0, 50, 100, 0.6)",
+    "titleColor": "rgba(240, 214, 0, 0.9)",
     "infoColor": "rgb(40, 40, 40)",
     "description": "Cumulative GPA: 3.31, Minor: Psychology, Coursework in:",
     "bulletPts": [
@@ -22,9 +22,9 @@
     "company": "Florida International University",
     "title": "Student Research Assistant",
     "start": "2022-10",
-    "backgroundColor": "rgba(60, 60, 60, 0.8)",
-    "titleColor": "rgba(240, 90, 70)",
-    "infoColor": "rgb(40, 40, 40)",
+    "backgroundColor": "rgba(0, 42, 98, 0.8)",
+    "titleColor": "rgba(240, 214, 0)",
+    "infoColor": "rgb(220, 220, 220)",
     "description": "Worked on an XR research project",
     "bulletPts": [
       "Developing hand tracking functionalities on Leap Motion controller for a SteamVR based project"
@@ -36,8 +36,8 @@
     "title": "Software Engineer Intern",
     "start": "2022-05",
     "end": "2022-08",
-    "backgroundColor": "rgba(60, 60, 60, 0.8)",
-    "titleColor": "rgba(240, 90, 70)",
+    "backgroundColor": "rgba(206, 82, 46, 0.8)",
+    "titleColor": "rgba(225, 225, 225)",
     "infoColor": "rgb(40, 40, 40)",
     "description": "Worked on the Pokemon Go mobile apps",
     "bulletPts": [
@@ -52,9 +52,9 @@
     "title": "Honors College Web Developer Intern",
     "start": "2021-01",
     "end": "2021-04",
-    "backgroundColor": "rgba(60, 60, 60, 0.8)",
-    "titleColor": "rgba(240, 90, 70)",
-    "infoColor": "rgb(40, 40, 40)",
+    "backgroundColor": "rgba(0, 42, 98, 0.8)",
+    "titleColor": "rgba(240, 214, 0)",
+    "infoColor": "rgb(220, 220, 220)",
     "description": "Worked on the FIU Honors College's portal",
     "bulletPts": [
       "Designed UI mockups with Adobe XD based on discussed website requirements",
@@ -85,7 +85,6 @@
     "backgroundColor": "rgba(228, 0, 136, 0.6)",
     "titleColor": "rgba(250, 190, 190)",
     "infoColor": "rgb(100, 60, 60)",
-
     "description": "An immersive 17-week full-time, all-women program in full-stack web development. The technologies and topics covered in the program includes:",
     "bulletPts": [
       "HTML/CSS",
