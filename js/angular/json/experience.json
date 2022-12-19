@@ -7,13 +7,58 @@
     "backgroundColor": "rgba(0, 42, 98, 0.8)",
     "titleColor": "rgba(240, 214, 0)",
     "infoColor": "rgb(40, 40, 40)",
-    "description": "Cumulative GPA: 3.23, Coursework in:",
+    "description": "Cumulative GPA: 3.31, Minor: Psychology, Coursework in:",
     "bulletPts": [
-      "Programming II (in Java)",
+      "Software Engineering",
+      "Operating System Principles",
       "Professional and Technical Writing for Computing",
       "Logic for Computer Science",
       "System Programming (in C)",
-      "Database Management"
+      "Database Management",
+      "Programming II (in Java)"
+    ]
+  },{
+    "type": "work",
+    "company": "Florida International University",
+    "title": "Student Research Assistant",
+    "start": "2022-10",
+    "backgroundColor": "rgba(60, 60, 60, 0.8)",
+    "titleColor": "rgba(240, 90, 70)",
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Worked on an XR research project",
+    "bulletPts": [
+      "Developing hand tracking functionalities on Leap Motion controller for a SteamVR based project"
+    ]
+  },
+  {
+    "type": "work",
+    "company": "Niantic, Inc.",
+    "title": "Software Engineer Intern",
+    "start": "2022-05",
+    "end": "2022-08",
+    "backgroundColor": "rgba(60, 60, 60, 0.8)",
+    "titleColor": "rgba(240, 90, 70)",
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Worked on the Pokemon Go mobile apps",
+    "bulletPts": [
+      "Debugged Java (Android) and Swift (iOS) code for an existing client side functionality within 2 days",
+      "Learned to implement server and client side code of Pokemon Go Android widget within 12 weeks without prior knowledge in Android development",
+      "Created JUnit Tests for newly added functionalities to ensure the code integrity"
+    ]
+  },
+  {
+    "type": "work",
+    "company": "Florida International University",
+    "title": "Honors College Web Developer Intern",
+    "start": "2021-01",
+    "end": "2021-04",
+    "backgroundColor": "rgba(60, 60, 60, 0.8)",
+    "titleColor": "rgba(240, 90, 70)",
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Worked on the FIU Honors College's portal",
+    "bulletPts": [
+      "Designed UI mockups with Adobe XD based on discussed website requirements",
+      "Tested Node.js backend server on Docker during the development phase"
     ]
   },
   {
