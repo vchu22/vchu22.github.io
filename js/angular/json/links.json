@@ -20,12 +20,6 @@
     "class": "fab fa-codepen fa-4x"
   },
   {
-    "site": "LeetCode",
-    "link": "https://leetcode.com/vchu22/",
-    "isimage": true,
-    "imglink": "https://unpkg.com/simple-icons@latest/icons/leetcode.svg"
-  },
-  {
     "site": "Hackerrank",
     "link": "https://www.hackerrank.com/vanessa_chu",
     "class": "fab fa-hackerrank fa-4x"
