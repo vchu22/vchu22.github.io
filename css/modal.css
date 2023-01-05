@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 .modal-container {
   background-color: #33333355;
   position: fixed;
@@ -44,8 +45,10 @@
 }
 
 .modal-project-desc {
-  margin: 2px auto 10px;
+  font-family: 'Dosis', serif;
+  margin: 2px 5vw 10px;
   white-space: pre-wrap;
+  color: #572709;
 }
 
 .modal-project-links {

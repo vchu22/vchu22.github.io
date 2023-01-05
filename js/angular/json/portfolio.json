@@ -1,5 +1,26 @@
 [
   {
+    "category": "Games/XR Projects",
+    "projects": [
+      {
+        "links": [{
+          "type": "link",
+          "url": "https://vchu22.github.io/SOS/"
+        },{ 
+          "type": "code", 
+          "url": "https://github.com/vchu22/SOS" 
+        }],
+        "title": "S.O.S.",
+        "img": "https://user-images.githubusercontent.com/10492258/189563137-2153e891-4cd4-42d2-a62a-2afa36c3e4d1.png",
+        "tech": [
+          "Unity",
+          "C-Sharp",
+          "iMovie"
+        ],"desc": "I worked with a group of 4 on a game development project during ShellHacks 2022. This is an island survival game that takes place after a catastrophe caused by climate change. The protagonist is a lone survivor trying to survive on an island while finding ways to reach outside help but is ultimately doomed to perish. The aim of this project is to tell the story of what will happen if we don't take climate change seriously.\n     This is the first time I collaborated on a game that has meaningful story. Not only that, I also gained skills outside of programming, including creating the opening scene with iMovie and finding appropriate audio and video sources for the project."
+      }
+    ]
+  },
+  {
     "category": "UI Designs",
     "projects": [
       {
