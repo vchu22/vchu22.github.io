@@ -26,13 +26,13 @@
           "type": "code", 
           "url": "https://github.com/vchu22/Oculus_Dodgeball_VR" 
         }],
-        "title": "Oculus Dodgeball VR",
+        "title": "Dodgeball VR",
         "img": "https://github.com/vchu22/Oculus_Dodgeball_VR/blob/master/gameplay.gif?raw=true",
         "tech": [
           "Unity",
           "C-Sharp",
           "Blender"
-        ],"desc": "A VR project I made in 2018."
+        ],"desc": "The first VR project I made in 2018. I created this project to learn the basics of game programming and VR development. I used Oculus Utility Packages to implement the VR functionalities such as head rotation and grabbing objects. I used Blender and Unity built-in functionalities to create 3D game objects and used C# to program the game logic."
       }
     ]
   },
