@@ -1,0 +1,204 @@
+[
+  {
+    "category": "Games/XR Projects",
+    "projects": [
+      {
+        "links": [{
+          "type": "link",
+          "url": "https://vchu22.github.io/SOS/"
+        },{ 
+          "type": "code", 
+          "url": "https://github.com/vchu22/SOS" 
+        }],
+        "title": "S.O.S.",
+        "img": "https://user-images.githubusercontent.com/10492258/189563137-2153e891-4cd4-42d2-a62a-2afa36c3e4d1.png",
+        "tech": [
+          "Unity",
+          "C-Sharp",
+          "iMovie"
+        ],"desc": "I worked with a group of 4 on a game development project during ShellHacks 2022. This is an island survival game that takes place after a catastrophe caused by climate change. The protagonist is a lone survivor trying to survive on an island while finding ways to reach outside help but is ultimately doomed to perish. The aim of this project is to tell the story of what will happen if we don't take climate change seriously.\n     This is the first time I collaborated on a game that has meaningful story. Not only that, I also gained skills outside of programming, including creating the opening scene with iMovie and finding appropriate audio and video sources for the project."
+      },
+      {
+        "links": [{
+          "type": "link",
+          "url": "https://github.com/vchu22/Oculus_Dodgeball_VR/releases/tag/v0.2-alpha"
+        },{ 
+          "type": "code", 
+          "url": "https://github.com/vchu22/Oculus_Dodgeball_VR" 
+        }],
+        "title": "Dodgeball VR",
+        "img": "https://github.com/vchu22/Oculus_Dodgeball_VR/blob/master/gameplay.gif?raw=true",
+        "tech": [
+          "Unity",
+          "C-Sharp",
+          "Blender"
+        ],"desc": "The first VR project I made in 2018. I created this project to learn the basics of game programming and VR development. I used Oculus Utility Packages to implement the VR functionalities such as head rotation and grabbing objects. I used Blender and Unity built-in functionalities to create 3D game objects and used C# to program the game logic."
+      }
+    ]
+  },
+  {
+    "category": "UI Designs",
+    "projects": [
+      {
+        "links": [{ "type": "link", "url": "prototypes/ResearchCrew/" }],
+        "title": "Research Crew",
+        "img": "prototypes/ResearchCrew/assets/Landing Page.png",
+        "desc": "A web app concept I created during the Technology Development Lab course at Queens College, a class that teaches the basics of turning your dream app into a startup. I came up with this idea because it was hard to find a platform where non-science majors like myself can contribute interesting science ideas, be involved in science projects, or connect with experts in the field. I also wanted to solve the problem that many students who majored in natural science couldn't jobs in relevant fields.\n     Therefore, I sketched out this idea of a platform that allows anyone, including non-experts, to contribute ideas to an academic field of their interest by proposing research projects, and contribute their skills to existing projects. The platform also creates more freelance opportunities for students who are looking for works in their fields of study."
+      },
+      {
+        "links": [{ "type": "link", "url": "prototypes/DegreeAssociate/" }],
+        "title": "DegreeAssociate",
+        "img": "prototypes/DegreeAssociate/assets/Login.png",
+        "desc": "A UI design I created during the Software Engineering class at Queens College. My team intended to create a web app that allows CUNY students to quickly select the courses they need for their next semesters. Our idea is that the app will compare your major's requirements with the courses you have taken and suggest the best schedule for your next semester. We also designed the functionality of sending notifications when the courses you selected becomes available.\n     I created the visuals using Adobe Photoshops and the interactive prototype using InVisionApp."
+      }
+    ]
+  },
+  {
+    "category": "Websites",
+    "projects": [
+      {
+        "links": [{
+            "type": "code",
+            "url": "https://github.com/CitizenHealth/COVIDx"
+          }
+        ],
+        "title": "COVIDx",
+        "img": "img/COVIDx.png",
+        "tech": [
+          "Flask",
+          "Javascript",
+          "SASS",
+          "React",
+          "Tripetto"
+        ],
+        "desc": "I came across this project when the project owner contacted me on HelpWithCovid.com, a website to find and create COVID-19 related projects to help with pandemic relief. This project aims to be a platform that can collect and analyze pandemic data from survey responses and wearable data, with the goal of containing the spread of COVID-19. My main contributions are the front-end functionalities, including the invite page and the survey forms made in Tripetto."
+      },{
+        "links": [
+          {
+            "type": "code",
+            "url": "https://gitlab.com/quickreview/quickreview"
+          }
+        ],
+        "title": "QuickReview",
+        "img": "img/QuickReview.png",
+        "tech": ["Django", "Python", "Webpack", "SASS", "React", "PostgreSQL"],
+        "desc": "A project I started in August 2019. The goal is to create a website that leveraging the power of online community to help people getting their resumes and cover letters reviewed faster. I also designed it with gamification features to incentivize providing feedbacks for other users.\n     As a project lead, I was responsible for a lot of things in this project, including designing the UI, setting up the project structure, writing documentations, managing the team, in addition to coding in Python Django and React. The main coding contributions were writing Django unit tests, building a basic login form, securing the passwords with advanced hashing algorithm, and writing other backend code."
+      },
+      {
+        "links": [
+          {
+            "type": "code",
+            "url": "https://github.com/c-ar-d/c-AR-d-Server"
+          }
+        ],
+        "title": "c-AR-d",
+        "img": "img/cARd.png",
+        "tech": [
+          "NodeJS",
+          "Javascript",
+          "CSS",
+          "React",
+          "Heroku",
+          "PostgreSQL",
+          "Amazon-S3"
+        ],
+        "desc": "This is the Capstone Project my team created during The Grace Hopper Program at Fullstack Academy of Code. It is a combination of a web app the allows users to create a custom greeting card for a friend and a mobile app that allows the receiver to scan the QR code on the card and view the AR/VR video uploaded by the sender.\n      I functioned mainly as a backend developer to implement the service that takes in user input and stores them in the database, uploads multimedia files to Amazon S3, and generates custom greeting cards based on user inputs. We implemented the functionalities to handle information storage using Node.js, Sequelize ORM, PostgreSQL, AWS SDK, and multer middleware. Other than that, I used a few small third-party Node.js libraries to implement the QR code generation and image merging functionality on the backend."
+      },
+      {
+        "links": [
+          {
+            "type": "code",
+            "url": "https://github.com/vchu22/AcademicBot"
+          }
+        ],
+        "title": "Academic Center Chatbot",
+        "img": "img/AcademicBot.png",
+        "tech": [
+          "NodeJS",
+          "Javascript",
+          "CSS",
+          "React",
+          "Redux",
+          "Heroku",
+          "PostgreSQL",
+          "Dialogflow"
+        ],
+        "desc": "This project was created for the Grace Hopper Stackathon. It's a web interface for a fictional college academic advising center with a chatbot that gives extra hands to the busy college advising center to handle repetitive student requests.\n      I implemented the front-end using React.js, Redux and CSS and built the backend using Node.js/Express, PostgreSQL, and Google Dialogflow. I utilized Google Dialogflow to create the chatbot interface and used for their platform for Natural Language Processing tasks, such as defining all the possible intents and classify user's utterances. On the server-side, I created a webhook route for the Dialogflow server hosted on the Google Cloud to communicate with my Node.js server hosted on Heroku, for the Dialogflow chatbot to retrieve information stored on the PostgreSQL database."
+      },
+      {
+        "links": [
+          {
+            "type": "code",
+            "url": "https://github.com/pluto-gh-1901/Pluto"
+          }
+        ],
+        "title": "Pluto Vegetables - Grace Shopper",
+        "img": "img/Pluto.png",
+        "tech": [
+          "NodeJS",
+          "Javascript",
+          "CSS",
+          "React",
+          "Redux",
+          "PostgreSQL",
+          "Heroku"
+        ],
+        "desc": "A fictional vegetable E-commerce site for the Grace Shopper project during The Grace Hopper Program. I collaborated with three other members to build this website using Node.js, Express.js, Sequelize ORM, PostgreSQL, React, and Redux. My most important contribution there was implementing the user authentication middleware to secure our REST API routes."
+      },
+      {
+        "links": [
+          {
+            "type": "code",
+            "url": "https://github.com/vchu22/recipes-calc"
+          }
+        ],
+        "tech": ["NodeJS", "Javascript", "Bootstrap", "AngularJS", "Heroku"],
+        "title": "RecipesCalc",
+        "img": "img/RecipesCalc.png",
+        "date": "03/2018 - 08/2018",
+        "desc": "A recipe search & nutrition calculator app I created for my final project at the NYC Tech Talent Pipeline pre-internship training. During the program, I initially used Bootstrap and jQuery to implement the basic functionalities, including recipe search, auto-populating the ingredients list and nutritional values. After the program, I enhanced the visuals by adding a custom Bootstrap theme, changing the CSS code, and adding loading animations and responsive design. To make the Javascript code more modular, I replaced the original pure jQuery code with AngularJS code."
+      }
+    ]
+  },
+  {
+    "category": "Mini Projects",
+    "projects": [
+      {
+        "links": [
+          {
+            "type": "code",
+            "url": "https://github.com/vchu22/covid-watch"
+          }
+        ],
+        "title": "COVID Watch",
+        "img": "img/COVID-Watch.png",
+        "tech": ["React", "Webpack"],
+        "desc": "At the start of the COVID-19 pandemic, I made a small website that displays the current metrics for COVID cases. I also made a chart that visualizes the trend in each country. The libraries used in this project include Recharts, styled-components, Flux, and React Mapbox GL."
+      },
+      {
+        "links": [
+          {
+            "type": "link",
+            "url": "https://vchu22.github.io/Game-of-life/"
+          }
+        ],
+        "title": "Game of life",
+        "img": "img/Game-of-Life.gif",
+        "tech": ["HTML", "CSS", "Javascript"],
+        "desc": "An exercise project I worked on during the Grace Hopper Program junior phase. It's implemented based on the rule of Conway's Game of Life, which is a cellular automaton devised by the British mathematician John Horton Conway. You can initialize the cell positions by clicking on those cells, and click 'Step' or 'Play' to generate the next cell positions based on Conway's Game of Life rules."
+      },
+      {
+        "links": [
+          {
+            "type": "link",
+            "url": "https://vchu22.github.io/guessing-game/"
+          }
+        ],
+        "title": "Guessing Game",
+        "img": "img/Guessing-Game.png",
+        "tech": ["HTML", "CSS", "Javascript"],
+        "desc": "A Guessing Game exercise project I created during the Grace Hopper Program Foundation Period. In each game, there will be a predefined number for you to guess. Your job is to guess the number based on the hints showed. You will have a maximum of 5 tries until the game ends."
+      }
+    ]
+  }
+]

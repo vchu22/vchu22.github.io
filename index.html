@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanessa Chu's Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="js/angular/app.js" defer></script>
+    <!-- Directives -->
+    <script src="js/angular/directives/modal.js" defer></script>
+    <script src="js/angular/directives/timeline.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <script src="js/tabs.js"></script>
+  </head>
+  <body ng-app="app">
+    <div id="content">
+      <noscript style="margin: 20px auto;">
+        <p style="margin: 20px;">
+          Please enable Javascript in order to display the content correctly
+        </p>
+      </noscript>
+      <header>
+        <div id="avatar"></div>
+        <div id="desc">
+          <h1 id="name">Vanessa Chu</h1>
+          <h1 id="role">
+            Software Engineer
+          </h1>
+          <h2 id="loc"><i class="fas fa-map-marker-alt"></i> United States</h2>
+          <ul ng-controller="linksController">
+            <li ng-repeat="link in links">
+              <a ng-href="{{ link.link }}" title="{{ link.site }}">
+                <i ng-hide="link.isimage" class="{{ link.class }}"></i>
+                <img
+                  ng-show="link.isimage"
+                  height="52"
+                  width="52"
+                  src="{{ link.imglink }}"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <section>
+        <nav>
+          <ul>
+            <li class="tablinks">
+              <a href="javascript:openTab(event, 'AboutMe');">About Me</a>
+            </li>
+            <li class="tablinks">
+              <a href="javascript:openTab(event, 'Skills');">Skills</a>
+            </li>
+            <li class="tablinks">
+              <a href="javascript:openTab(event, 'Experience');">Experience</a>
+            </li>
+            <li class="tablinks">
+              <a href="javascript:openTab(event, 'Portfolio');">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+        <article>
+          <div id="AboutMe" class="tabcontent">
+            <h1>About Me</h1>
+            <p>
+              Hi, welcome to my portfolio site! I'm Vanessa, a software engineer with experience working with web dev, game dev, and XR projects. My favorite technologies for web development are React.js, Node.js, Django (Python), SASS, and Postgres. For game development, I am most experienced in Unity and C#.<br/>
+              <br/>
+              In April 2019, I graduated from The Grace Hopper Program at Fullstack Academy of Code, a coding bootcamp where I learned web development using Node.js, React, and Postgres as well as modern software engineering tools. I am finishing my Bachelor's degree in Computer Science at Florida International University and will graduate in August 2023.<br/>
+              <br/>
+              Most recently, I have worked as a Software Engineer intern at Niantic, the company who created Pokemon Go. Currently, I am working on an XR project as a Student Research Assistant at my school.<br/>
+            </p>
+          </div>
+          <div id="Skills" class="tabcontent" ng-controller="skillsTab">
+            <h1>Skills</h1>
+            <div ng-repeat="skill in skills">
+              <h3>{{ skill.category }}</h3>
+              <ul>
+                <li ng-repeat="item in skill.items">{{ item }}</li>
+              </ul>
+            </div>
+          </div>
+          <div id="Experience" class="tabcontent" ng-controller="expTab">
+            <h1>Timeline</h1>
+            <timeline experience="experience"></timeline>
+          </div>
+
+          <div id="Portfolio" class="tabcontent" ng-controller="portfolioTab">
+            <h1>Portfolio</h1>
+            <div ng-repeat="item in portfolio">
+              <h3>{{ item.category }}</h3>
+              <hr />
+              <div class="items">
+                <div class="item" ng-repeat="project in item.projects">
+                  <a href="#" ng-click="toggle(project)">
+                    <h4>{{ project.title }}</h4>
+                    <img src="{{ project.img }}" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <modal ng-show="show" item="item"></modal>
+          </div>
+        </article>
+      </section>
+    </div>
+    <script>
+      $("header").css("display", "flex");
+      $("section").css("display", "flex");
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7WLVEMKNT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D7WLVEMKNT');
+    </script>
+  </body>
+</html>

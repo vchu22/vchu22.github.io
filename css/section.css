@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap');
+section {
+  display: none;
+  justify-content: center;
+}
+
+/* tab contents */
+article {
+  background: #99939333;
+  width: 80%;
+  padding: 0 25px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.tabcontent {
+  display: none;
+}
+#AboutMe {
+  display: block;
+}
+#AboutMe p {
+  font-family: 'Shantell Sans', cursive;
+}
+article h1 {
+  font-size: 36px;
+}
+
+/* Skills */
+#Skills li {
+  list-style: none;
+  background: #eb7c1599;
+  width: auto;
+  margin: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 8px;
+  font-family: "Lilita One", cursive;
+}
+
+#Portfolio hr {
+  border: 2px solid #000;
+  margin-block-end: 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 380px;
+  margin: auto 20px;
+  display: inline-block;
+}
+.item > a {
+  color: #574c4c;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    padding: 10px 10%;
+    font-size: 1.3em;
+  }
+  article h1 {
+    font-size: 30px;
+  }
+}

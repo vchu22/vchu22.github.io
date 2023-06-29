@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="css/timeline.css" />
+
+<div class="box">
+  <ul class="timeline">
+    <li
+      ng-repeat="exp in experience"
+      id="exp-{{$index}}"
+      style="background-color: {{exp.backgroundColor}}"
+    >
+      <span></span>
+      <div class="company" style="color: {{exp.titleColor}}">
+        <i class="fas fa-briefcase fa-lg" ng-show="{{exp.type == 'work'}}"></i>
+        <i class="fas fa-graduation-cap fa-lg" ng-show="{{exp.type == 'education'}}" ></i>
+        <i class="fas fa-handshake" ng-show="{{exp.type == 'volunteer'}}" ></i>
+        {{ exp.company }}
+      </div>
+      <div class="title" style="color: {{exp.titleColor}}">
+        <i class="fas fa-user-tie fa-lg" ng-show="{{exp.type == 'work' || exp.type == 'volunteer'}}"></i>
+        <i class="fas fa-user-graduate fa-lg" ng-show="{{exp.type == 'education'}}"></i>
+        {{ exp.title }}
+      </div>
+
+      <div
+        class="info"
+        ng-show="{{exp.bulletPts.length > 0 || exp.hasOwnProperty('description')}}"
+        style="color: {{exp.infoColor}}"
+      >
+        <p>{{exp.description}}</p>
+
+        <ul>
+          <li ng-repeat="bulletPt in exp.bulletPts">{{ bulletPt }}</li>
+        </ul>
+      </div>
+
+      <div class="time">
+        <span>{{getDate(exp.end, "end") | uppercase}}</span>
+        <span>{{getDate(exp.start, "start") | uppercase}}</span>
+      </div>
+    </li>
+  </ul>
+</div>

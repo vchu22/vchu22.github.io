@@ -1,0 +1,182 @@
+[
+  {
+    "type": "education",
+    "company": "Florida International University",
+    "title": "Bachelor of Arts in Computer Science",
+    "start": "2020-08",
+    "backgroundColor": "rgba(0, 50, 100, 0.6)",
+    "titleColor": "rgba(240, 214, 0, 0.9)",
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Cumulative GPA: 3.59, Minor: Psychology, Dean's List for 3 semesters, Coursework in:",
+    "bulletPts": [
+      "Software Engineering",
+      "Operating System Principles",
+      "Professional and Technical Writing for Computing",
+      "Logic for Computer Science",
+      "System Programming (in C)",
+      "Database Management",
+      "Programming II (in Java)",
+      "Fundamentals of Software Testing (in Java/JUnit)",
+      "Net-centric Computing (in Python)"
+    ]
+  },{
+    "type": "work",
+    "company": "Florida International University",
+    "title": "Student Research Assistant",
+    "start": "2022-10",
+    "backgroundColor": "rgba(0, 42, 98, 0.8)",
+    "titleColor": "rgba(240, 214, 0)",
+    "infoColor": "rgb(220, 220, 220)",
+    "description": "Working on research and development of RoboticAcademy, a VR robotics learning environment",
+    "bulletPts": [
+      "Implemented Leap Motion hand tracking and tested integration with HTC Vive eye tracking in Unity SteamVR",
+      "Researched speech recognition plugins and tested the Azure Cognitive Services add-on for Unity",
+      "Programmed C# scripts to export hand-tracking data and show eye gaze data on a UI",
+      "Generated procedural grid texture on a plane using Unity Shader Graph"
+    ]
+  },
+  {
+    "type": "work",
+    "company": "Niantic, Inc.",
+    "title": "Software Engineer Intern",
+    "start": "2022-05",
+    "end": "2022-08",
+    "backgroundColor": "rgba(206, 82, 46, 0.8)",
+    "titleColor": "rgba(225, 225, 225)",
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Worked on the Pokemon Go mobile apps",
+    "bulletPts": [
+      "Debugged Java (Android) and Swift (iOS) code for an existing client side functionality within 2 days",
+      "Implemented server and client-side code for the Pokemon Go Android widget within 12 weeks without prior knowledge of Android development",
+      "Created JUnit Tests for newly added functionalities to ensure the code integrity",
+      "Utilized Protocol Buffers (protobuf) to simplify server and client side code implementation and ensure consistent variable naming across server and client side code"
+    ]
+  },
+  {
+    "type": "volunteer",
+    "company": "Upsilon Pi Epsilon (Now: INIT FIU)",
+    "title": "UPE Code Committee Member",
+    "start": "2022-05",
+    "end": "2022-08",
+    "backgroundColor": "rgba(30, 30, 30, 0.8)",
+    "titleColor": "rgba(240, 214, 0)",
+    "infoColor": "rgb(30, 30, 30)",
+    "description": "Helped organizing UPE Code workshops for learning technology topics outside the computer science curriculum",
+    "bulletPts": [
+      "Attended weekly meetings to discuss and plan upcoming workshops",
+      "Added content to PowerPoint slides for the weekly workshops",
+      "Worked on Unity3D code with other committee members through peer programming for a game development workshop"
+    ]
+  },
+  {
+    "type": "work",
+    "company": "Florida International University",
+    "title": "Honors College Web Developer Intern",
+    "start": "2021-01",
+    "end": "2021-04",
+    "backgroundColor": "rgba(0, 42, 98, 0.8)",
+    "titleColor": "rgba(240, 214, 0)",
+    "infoColor": "rgb(220, 220, 220)",
+    "description": "Worked on the FIU Honors College's portal",
+    "bulletPts": [
+      "Designed UI mockups with Adobe XD based on discussed website requirements",
+      "Tested Node.js backend server on Docker during the development phase"
+    ]
+  },
+  {
+    "type": "volunteer",
+    "company": "Citizen Health",
+    "title": "Software Engineer (Volunteer)",
+    "start": "2020-04",
+    "end": "2020-08",
+    "backgroundColor": "rgba(60, 60, 60, 0.8)",
+    "titleColor": "rgba(240, 90, 70)",
+    "infoColor": "rgb(40, 40, 40)",
+    "description": "Worked on the front-end interface of COVIDx, a web app that uses wearable data to predict & prevent COVID-19 spread",
+    "bulletPts": [
+      "Implemented React.js code to show leaderboard data and applied Vuexy theme to UI components",
+      "Created health report survey with Tripetto Studio and integrated it to React UI using Tripetto SDK",
+      "Assisted in refining the survey questionnaire to accommodate a diverse global population",
+      "Engaged in weekly meetings to report status and discuss features and technical challenges"
+    ]
+  },
+  {
+    "type": "education",
+    "company": "The Grace Hopper Program at Fullstack Academy of Code",
+    "title": "Software Engineering Graduate",
+    "end": "2019-04",
+    "start": "2018-12",
+    "backgroundColor": "rgba(228, 0, 136, 0.6)",
+    "titleColor": "rgba(250, 190, 190)",
+    "infoColor": "rgb(100, 60, 60)",
+    "description": "An immersive 17-week full-time, all-women program in full-stack web development. The technologies and topics covered in the program includes:",
+    "bulletPts": [
+      "HTML/CSS",
+      "Javascript",
+      "Node.js",
+      "Express",
+      "Sequelize.js (ORM)",
+      "PostgreSQL",
+      "React/Redux",
+      "Webpack",
+      "Socket.io",
+      "OAuth and Passport",
+      "Heroku",
+      "TravisCI",
+      "Jasmine",
+      "Chai",
+      "Mocha",
+      "Pair Programming",
+      "Test Driven Development",
+      "Data Structures & Algorithms"
+    ]
+  },
+  {
+    "type": "work",
+    "company": "On Hand LLC",
+    "title": "Full-Stack Developer Intern",
+    "end": "2018-02",
+    "start": "2017-12",
+    "bulletPts": [
+      "Discussed the software architecture of the website with the manager and the team",
+      "Preliminary development of a messaging component with email and SMS notification functionalities",
+      "Implemented email notification functionality for Django server and utilized third-party Django library to send templated emails",
+      "Set up a SMTP server using Mailgun to test the Django code for emailing functionality",
+      "Programmed SMS notification functionality using Twilio API for Python"
+    ]
+  },
+  {
+    "type": "work",
+    "company": "FixMe Incorporated",
+    "title": "Web Developer Intern",
+    "end": "2017-08",
+    "start": "2017-06",
+    "bulletPts": [
+      "Debugged HTML/CSS/Javascript/jQuery code for the front-end",
+      "Implemented the responsive design using Bootstrap and CSS media queries",
+      "Applied FancyGrid and Owl Carousel JavaScript libraries to create data tables and carousel features",
+      "Utilized Git repository on Github and Bitbucket for version control and code collaboration",
+      "Communicated the project progress and issues with team over Slack and JIRA Scrum Board",
+      "Proposed the use RESTful API to connect the frontend to the backend"
+    ]
+  },
+  {
+    "type": "education",
+    "company": "CUNY Queen College",
+    "title": "Computer Science Student",
+    "end": "2018-12",
+    "backgroundColor": "rgba(228, 10, 46, 0.6)",
+    "infoColor": "rgb(60, 60, 60)",
+    "description": "Completed coursework in:",
+    "bulletPts": [
+      "Object-Oriented Programming in Java and C++",
+      "Data Structure",
+      "Assembly Languages",
+      "Computer Architecture",
+      "Internet Security",
+      "Database System",
+      "Theory of Computation",
+      "Software Engineering"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="css/modal.css" />
+
+<div class="modal-container" ng-click="close()">
+  <div class="modal-content" ng-click="$event.stopPropagation()">
+    <div class="modal-header">
+      <span></span>
+      <span>{{ item.title }}</span>
+      <i id="close" class="fas fa-window-close" ng-click="close()"></i>
+    </div>
+    <div class="modal-project-img">
+      <img src="{{ item.img }}" />
+    </div>
+    <div class="modal-tech-stack">
+      <div ng-repeat="stack in item.tech">
+        <div class="tooltip">
+          <img
+            src="img/tech/{{stack | lowercase}}.svg"
+            width="64"
+            height="64"
+          />
+          <span class="tooltiptext">{{stack}}</span>
+        </div>
+      </div>
+    </div>
+    <p class="modal-project-desc">
+      {{ item.desc }}
+    </p>
+    <div class="modal-project-links">
+      <button
+        class="btn btn-default"
+        ng-repeat="link in item.links"
+        ng-click="open(link.url)"
+      >
+        <i class="fas fa-{{ link.type }}"></i> {{ link.type == "link" ? "View
+        Project" : "View Code"}}
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:900");
+html {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+#content {
+  background: rgba(255, 255, 255, 0.7);
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  font-family: "Exo", sans-serif;
+}
+@media only screen and (max-width: 1440px) {
+  #content {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #content {
+    width: 100%;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+  #content {
+    border-radius: 5px;
+    margin: 10% auto;
+  }
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+.modal-container {
+  background-color: #33333355;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: scroll;
+  /* Hide scrollbar for IE and Edge */
+  -ms-overflow-style: none;
+  /* Hide scrollbar for Firefox */
+  scrollbar-width: none;
+  z-index: 3;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-content {
+  background-color: #e9e1d6;
+  box-shadow: 1px 2px 10px #3a3a3a;
+  margin: 10vh 15vw;
+  padding: 10px 40px 30px;
+  border-radius: 10px;
+}
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  margin: 10px 0;
+}
+#close {
+  color: #db4343;
+  font-size: 36px;
+}
+
+.modal-project-img > img {
+  display: block;
+  margin: 40px auto 10px;
+  max-width: 94%;
+}
+
+.modal-project-desc {
+  font-family: 'Dosis', serif;
+  margin: 2px 5vw 10px;
+  white-space: pre-wrap;
+  color: #572709;
+}
+
+.modal-project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.modal-project-links > button {
+  background-color: rgb(247, 153, 94);
+  border: 0;
+  box-shadow: 0px 8px rgb(173, 124, 91);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 12px;
+  font-size: larger;
+  font-weight: bold;
+}
+.modal-project-links > button:hover {
+  background-color: rgb(245, 164, 114);
+}
+.modal-project-links > button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 3px rgb(173, 124, 91);
+}
+.modal-project-links > button:focus {
+  outline: none;
+}
+.modal-project-links > button::-moz-focus-inner {
+  border: 0;
+}
+
+/* tooltip begin */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #555555e0;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 8px;
+  position: absolute;
+  z-index: 3;
+  bottom: 115%;
+  left: 28px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+/* tooltip end */
+.modal-tech-stack {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.modal-tech-stack > div {
+  height: 72px;
+  width: 72px;
+  margin: 20px 10px 0;
+  border-radius: 20px;
+  background-color: #c4b7ad;
+}
+.modal-tech-stack > div:hover {
+  background-color: #ad9888;
+}
+.modal-tech-stack img {
+  height: 64px;
+  width: 64px;
+  margin: 4px;
+}
+
+@media (max-width: 720px) {
+  .modal-content {
+    margin: 10vh 10px;
+  }
+  .modal-project-img > img {
+    max-width: 90%;
+  }
+  .modal-project-desc {
+    font-size: smaller;
+  }
+  .modal-project-links > button {
+    padding: 20px 5px;
+  }
+}
