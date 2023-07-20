@@ -23,10 +23,5 @@
     "site": "Hackerrank",
     "link": "https://www.hackerrank.com/vanessa_chu",
     "class": "fab fa-hackerrank fa-4x"
-  },
-  {
-    "site": "My Blog",
-    "link": "https://code-expresso.netlify.com/",
-    "class": "fas fa-blog fa-3x"
   }
 ]
