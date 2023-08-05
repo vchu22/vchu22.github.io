@@ -3,6 +3,20 @@
     "category": "Games/XR Projects",
     "projects": [
       {
+        "links": [{ 
+          "type": "code", 
+          "url": "https://github.com/INIT-BUILD-VR-2022/EscapeSpaceshipVR"
+        }],
+        "title": "Escape Spaceship VR",
+        "img": "https://user-images.githubusercontent.com/10492258/255355867-2daf8885-189d-4e21-82e7-72dcce12960e.png",
+        "tech": [
+          "Unity",
+          "C-Sharp",
+          "Blender",
+          "PlasticSCM"
+        ],"desc": "In 2023, I joined the INIT Build program at FIU, where students have the opportunity to work on projects they wish to gain experience. I was matched with the VR team, whose team leader decided to create an escape room game. After brainstorming ideas, we decided to create a sci-fi-themed escape room game where the player was captured by aliens and trapped inside a spaceship. We collaborated on assets and code using PlasticSCM, an industry-standard version control tool for game development, and we used Unity3D game engine, C#, and Blender during the development. In this project, I have touched on various aspects of game development, including 3D modeling and editing, animations, audio, programming game logic, and optimizing the game. I also used a little bit of ProBuilder, a built-in Unity tool for level design."
+      },
+      {
         "links": [{
           "type": "link",
           "url": "https://vchu22.github.io/SOS/"
@@ -16,7 +30,7 @@
           "Unity",
           "C-Sharp",
           "iMovie"
-        ],"desc": "I worked with a group of 4 on a game development project during ShellHacks 2022. This is an island survival game that takes place after a catastrophe caused by climate change. The protagonist is a lone survivor trying to survive on an island while finding ways to reach outside help but is ultimately doomed to perish. The aim of this project is to tell the story of what will happen if we don't take climate change seriously.\n     This is the first time I collaborated on a game that has meaningful story. Not only that, I also gained skills outside of programming, including creating the opening scene with iMovie and finding appropriate audio and video sources for the project."
+        ],"desc": "I worked with a group of 4 on a game development project during ShellHacks 2022. This is an island survival game that takes place after a catastrophe caused by climate change. The protagonist is a lone survivor trying to survive on an island while finding ways to reach outside help but is ultimately doomed to perish. The aim of this project is to tell the story of what will happen if we don't take climate change seriously.\n     This is the first time I collaborated on a game with a meaningful story. Not only that, but I also gained skills outside of programming, including creating the opening scene with iMovie and finding appropriate audio and video sources for the project."
       },
       {
         "links": [{
@@ -82,7 +96,7 @@
         "title": "QuickReview",
         "img": "img/QuickReview.png",
         "tech": ["Django", "Python", "Webpack", "SASS", "React", "PostgreSQL"],
-        "desc": "A project I started in August 2019. The goal is to create a website that leveraging the power of online community to help people getting their resumes and cover letters reviewed faster. I also designed it with gamification features to incentivize providing feedbacks for other users.\n     As a project lead, I was responsible for a lot of things in this project, including designing the UI, setting up the project structure, writing documentations, managing the team, in addition to coding in Python Django and React. The main coding contributions were writing Django unit tests, building a basic login form, securing the passwords with advanced hashing algorithm, and writing other backend code."
+        "desc": "A project I started in August 2019. The goal is to create a website that leverages the power of the online community to help people get their resumes and cover letters reviewed faster. I also designed it with gamification features to incentivize providing feedback to other users.\n     As a project lead, I was responsible for a lot of things in this project, including designing the UI, setting up the project structure, writing documentation, and managing the team, in addition to coding in Python Django, and React. The main coding contributions were writing Django unit tests, building a basic login form, securing the passwords with an advanced hashing algorithm, and writing other backend code."
       },
       {
         "links": [
