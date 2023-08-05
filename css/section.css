@@ -21,6 +21,7 @@ article {
 }
 #AboutMe p {
   font-family: 'Shantell Sans', cursive;
+  font-size: smaller;
 }
 article h1 {
   font-size: 36px;
