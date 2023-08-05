@@ -1,14 +1,36 @@
 [
   {
+    "type": "work",
+    "company": "Florida International University",
+    "title": "Student Research Assistant",
+    "start": "2022-10",
+    "end": "2023-08",
+    "backgroundColor": "rgba(0, 42, 98, 0.8)",
+    "titleColor": "rgba(240, 214, 0)",
+    "infoColor": "rgb(220, 220, 220)",
+    "description": "As a student research assistant, I worked with a team of 3 developers and faculty members from the Robotics and Digital Fabrication Laboratory to develop features for RoboticAcademy, a VR robotics learning environment for a Nation Science Foundation (NSF) Project as part of Research on Emerging Technologies for the Teaching and Learning track \"Intelligent Immersive Environments for Learning Robotics Operations\" In this role, my main accomplishments include:",
+    "bulletPts": [
+      "Implemented Leap Motion hand tracking and tested integration with HTC Vive eye tracking in Unity SteamVR",
+      "Collaborate with team members through Github, Trello, and in-person user testing sessions and to redesign and rebuild UI with new functionalities",
+      "Researched speech recognition plugins and tested the Azure Cognitive Services add-on for Unity",
+      "Wrote C# code to exports hand-tracking data into .csv files for researchers, highlight gazed objects, place spheres in a space, and show UI with eye gaze stats",
+      "Generated procedural grid texture on a plane using Unity Shader Graph",
+      "Rebuilt UI based on design from the previous iteration and incorporate new functionalities into the UI"
+    ]
+  },
+  {
     "type": "education",
     "company": "Florida International University",
-    "title": "Bachelor of Arts in Computer Science",
+    "title": "Bachelor of Arts in Computer Science, Minor in Psychology",
     "start": "2020-08",
+    "end": "2023-08",
     "backgroundColor": "rgba(0, 50, 100, 0.6)",
     "titleColor": "rgba(240, 214, 0, 0.9)",
     "infoColor": "rgb(40, 40, 40)",
-    "description": "Cumulative GPA: 3.59, Minor: Psychology, Dean's List for 3 semesters, Coursework in:",
+    "description": "Cumulative GPA: 3.65, Dean's List for 3 semesters, Coursework in:",
     "bulletPts": [
+      "Human-Computer Interaction",
+      "Introduction to Artificial Intelligence",
       "Software Engineering",
       "Operating System Principles",
       "Professional and Technical Writing for Computing",
@@ -18,21 +40,6 @@
       "Programming II (in Java)",
       "Fundamentals of Software Testing (in Java/JUnit)",
       "Net-centric Computing (in Python)"
-    ]
-  },{
-    "type": "work",
-    "company": "Florida International University",
-    "title": "Student Research Assistant",
-    "start": "2022-10",
-    "backgroundColor": "rgba(0, 42, 98, 0.8)",
-    "titleColor": "rgba(240, 214, 0)",
-    "infoColor": "rgb(220, 220, 220)",
-    "description": "Working on research and development of RoboticAcademy, a VR robotics learning environment",
-    "bulletPts": [
-      "Implemented Leap Motion hand tracking and tested integration with HTC Vive eye tracking in Unity SteamVR",
-      "Researched speech recognition plugins and tested the Azure Cognitive Services add-on for Unity",
-      "Programmed C# scripts to export hand-tracking data and show eye gaze data on a UI",
-      "Generated procedural grid texture on a plane using Unity Shader Graph"
     ]
   },
   {
