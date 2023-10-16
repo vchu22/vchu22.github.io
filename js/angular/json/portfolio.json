@@ -51,23 +51,6 @@
     ]
   },
   {
-    "category": "UI Designs",
-    "projects": [
-      {
-        "links": [{ "type": "link", "url": "prototypes/ResearchCrew/" }],
-        "title": "Research Crew",
-        "img": "prototypes/ResearchCrew/assets/Landing Page.png",
-        "desc": "A web app concept I created during the Technology Development Lab course at Queens College, a class that teaches the basics of turning your dream app into a startup. I came up with this idea because it was hard to find a platform where non-science majors like myself can contribute interesting science ideas, be involved in science projects, or connect with experts in the field. I also wanted to solve the problem that many students who majored in natural science couldn't jobs in relevant fields.\n     Therefore, I sketched out this idea of a platform that allows anyone, including non-experts, to contribute ideas to an academic field of their interest by proposing research projects, and contribute their skills to existing projects. The platform also creates more freelance opportunities for students who are looking for works in their fields of study."
-      },
-      {
-        "links": [{ "type": "link", "url": "prototypes/DegreeAssociate/" }],
-        "title": "DegreeAssociate",
-        "img": "prototypes/DegreeAssociate/assets/Login.png",
-        "desc": "A UI design I created during the Software Engineering class at Queens College. My team intended to create a web app that allows CUNY students to quickly select the courses they need for their next semesters. Our idea is that the app will compare your major's requirements with the courses you have taken and suggest the best schedule for your next semester. We also designed the functionality of sending notifications when the courses you selected becomes available.\n     I created the visuals using Adobe Photoshops and the interactive prototype using InVisionApp."
-      }
-    ]
-  },
-  {
     "category": "Websites",
     "projects": [
       {
