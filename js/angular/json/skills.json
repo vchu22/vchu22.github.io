@@ -12,7 +12,8 @@
       "Angular.js",
       "Socket.io",
       "Python Django",
-      "Flask"
+      "Flask",
+      "GraphQL"
     ]
   },
   {
@@ -25,7 +26,7 @@
   },
   {
     "category": "Game Development",
-    "items": ["Unity3D/C# Scripting", "Blender"]
+    "items": ["Unity3D/C# Scripting", "Blender", "PlasticSCM"]
   },
   {
     "category": "Others / Development Tools",
